@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <!-- TOTAL PAGES TO CREATE :  27 -->
+    <!-- TOTAL PAGES TO CREATE :  31 -->
 
     <!-- ON HOME PAGE / LANDING PAGE -->
     <url>
@@ -46,40 +46,49 @@
         <loc>http://vaxcare.fr/vaccines_calendars</loc> 
     </url>
 
+     <!--  PROFILES PAGE -->
+    <url>
+        <loc>http://vaxcare.fr/user/:userId</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/:userId/profiles</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/:userId/profiles/:profileId</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/:userId/profiles/:profileId/reminders</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/user/:userId/settings</loc> 
+    </url>
 
     <!-- My Vaccination Record -->
     <url>
-        <loc>http://vaxcare.fr/my_vaccination_record</loc> 
+        <loc>http://vaxcare.fr/:userId/profiles/:profileId/my_vaccination_record</loc> 
     </url>
     <url>
-        <loc>http://vaxcare.fr/my_vaccination_record/add_vaccine</loc> 
+        <loc>http://vaxcare.fr/:userId/profiles/:profileId/my_vaccination_record/reminders</loc> 
     </url>
     <url>
-        <loc>http://vaxcare.fr/my_vaccination_record/edit_vaccine/:vaccineId/:nameVaccine</loc> 
+        <loc>http://vaxcare.fr/:userId/profiles/:profileId/my_vaccination_record/add_vaccine</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/:userId/profiles/:profileId/my_vaccination_record/edit_vaccine/:vaccineId/:nameVaccine</loc> 
     </url>
 
     <!-- My Appointments -->
     <url>
-        <loc>http://vaxcare.fr/my_appointments</loc> 
+        <loc>http://vaxcare.fr/:userId/profiles/:profileId/my_appointments</loc> 
     </url>
     <url>
-        <loc>http://vaxcare.fr/my_vaccination_record/add_appointment</loc> 
+        <loc>http://vaxcare.fr/:userId/profiles/:profileId/my_appointments/reminders</loc> 
     </url>
     <url>
-        <loc>http://vaxcare.fr/my_vaccination_record/edit_appointment/:appointmentId</loc> 
-    </url>
-
-
-
-     <!--  PROFILE PAGE -->
-    <url>
-        <loc>http://vaxcare.fr/profile</loc> 
+        <loc>http://vaxcare.fr/:userId/profiles/:profileId/my_appointments/add_appointment</loc> 
     </url>
     <url>
-        <loc>http://vaxcare.fr/profile/settings</loc> 
-    </url>
-    <url>
-        <loc>http://vaxcare.fr/profile/reminders</loc> 
+        <loc>http://vaxcare.fr/:userId/profiles/:profileId/my_appointments/:appointmentId</loc> 
     </url>
 
 
@@ -93,6 +102,7 @@
     <url>
         <loc>http://vaxcare.fr/terms_and_conditions</loc> 
     </url>
+
 
      <!--  ADMIN DASHBOARD -->
     <url>
