@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <!-- TOTAL PAGES TO CREATE :  26 -->
+    <!-- TOTAL PAGES TO CREATE :  27 -->
 
     <!-- ON HOME PAGE / LANDING PAGE -->
     <url>
@@ -52,10 +52,10 @@
         <loc>http://vaxcare.fr/my_vaccination_record</loc> 
     </url>
     <url>
-        <loc>http://vaxcare.fr/my_vaccination_record</add_vaccine<loc> 
+        <loc>http://vaxcare.fr/my_vaccination_record/add_vaccine</loc> 
     </url>
     <url>
-        <loc>http://vaxcare.fr/my_vaccination_record</edit_vaccine/:vaccineId/:nameVaccine> 
+        <loc>http://vaxcare.fr/my_vaccination_record/edit_vaccine/:vaccineId/:nameVaccine</loc> 
     </url>
 
     <!-- My Appointments -->
@@ -63,10 +63,10 @@
         <loc>http://vaxcare.fr/my_appointments</loc> 
     </url>
     <url>
-        <loc>http://vaxcare.fr/my_vaccination_record</add_appointment<loc> 
+        <loc>http://vaxcare.fr/my_vaccination_record/add_appointment</loc> 
     </url>
     <url>
-        <loc>http://vaxcare.fr/my_vaccination_record</edit_appointment/:appointmentId> 
+        <loc>http://vaxcare.fr/my_vaccination_record/edit_appointment/:appointmentId</loc> 
     </url>
 
 
