@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- TOTAL PAGES TO CREATE :  26 -->
+
+    <!-- ON HOME PAGE / LANDING PAGE -->
+    <url>
+        <loc>http://vaxcare.fr</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/about_us</loc> 
+    </url>
+
+    <url>
+        <loc>http://vaxcare.fr/which_vaccine_for_you</loc> 
+    </url>
+
+    <url>
+        <loc>http://vaxcare.fr/which_vaccine_for_you/result</loc> 
+    </url>
+
+
+<!-- ON NAVBAR : Home, Vaccines, My Vaccination Record (mes vaccins), Profile -->
+ 
+    <!-- TRAVEL PAGE -->
+    <url>
+        <loc>http://vaxcare.fr/travel</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/travel_questionnaire</loc> 
+    </url>
+
+
+  
+    <!--  VACCINES -->
+    <url>
+        <loc>http://vaxcare.fr/vaccines</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/vaccines/:vaccineID/vaccineName</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/vaccination_centers</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/vaccines_calendars</loc> 
+    </url>
+
+
+    <!-- My Vaccination Record -->
+    <url>
+        <loc>http://vaxcare.fr/my_vaccination_record</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/my_vaccination_record</add_vaccine<loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/my_vaccination_record</edit_vaccine/:vaccineId/:nameVaccine> 
+    </url>
+
+    <!-- My Appointments -->
+    <url>
+        <loc>http://vaxcare.fr/my_appointments</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/my_vaccination_record</add_appointment<loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/my_vaccination_record</edit_appointment/:appointmentId> 
+    </url>
+
+
+
+     <!--  PROFILE PAGE -->
+    <url>
+        <loc>http://vaxcare.fr/profile</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/profile/settings</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/profile/reminders</loc> 
+    </url>
+
+
+     <!--  OTHER PAGES -->
+    <url>
+        <loc>http://vaxcare.fr/login</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/signup</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/terms_and_conditions</loc> 
+    </url>
+
+     <!--  ADMIN DASHBOARD -->
+    <url>
+        <loc>http://vaxcare.fr/admin</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/admin/users</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/admin/vaccines</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/admin/add_vaccine</loc> 
+    </url>
+    <url>
+        <loc>http://vaxcare.fr/admin/edit_vaccine/:vaccineId/:vaccineName</loc> 
+    </url>
+
+
+
+</urlset>
