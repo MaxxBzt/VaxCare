@@ -1,0 +1,18 @@
+#signup{
+    width: 100%;
+    height: 100%;
+    background-color: #a7e8df;
+}
+#signup:hover{
+    background-color: #2DD4BF;
+    transition: 0.5s;
+}
+
+#signin{
+    background-color: #a7e8df;
+}
+#signin:hover{
+    background-color: #2DD4BF;
+    transition: 0.5s;
+}
+
