@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
         greetingMessageElement.textContent = `Welcome ${user.username}!`;
         subtitle.textContent = ""
 
+        document.getElementById("loggedInContent").style.display = "block";
+
         // Hide content for logged out users
         document.getElementById("loggedOutContent").style.display = "none";
 
@@ -20,6 +22,9 @@ document.addEventListener("DOMContentLoaded", function() {
         greetingMessageElement.textContent = "Don't forget your vaccine";
         subtitle.textContent = "ever again"
 
-        document.getElementById("loggedOutContent").style.display = "block";
+        document.getElementById("loggedOutContent").style.display = "flex";
+
+        // Hide content for loggin out users
+        document.getElementById("loggedInContent").style.display = "none";
     }
 });
