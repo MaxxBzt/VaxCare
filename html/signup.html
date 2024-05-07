@@ -41,12 +41,17 @@
                         </div>
                         <div class="col-md-6 col-lg-7 d-flex align-items-center">
                             <div class="card-body p-4 p-lg-5 text-black">
-                                <form>
+                                <form id="signupForm">
                                     <div class="d-flex align-items-center mb-3 pb-1">
                                         <span class="h1 fw-bold mb-0">💉 Sign Up </span>
                                     </div>
 
                                     <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Create an account to track your vaccines and so much more</h5>
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="usernamesignup">Username</label>
+                                        <input type="text" id="usernamesignup" class="form-control form-control-lg" />
+                                    </div>
 
                                     <div class="form-outline mb-4">
                                         <label class="form-label" for="mailsignup">Email address</label>
@@ -70,7 +75,7 @@
 
 
 
-                                    <button id="signup" class="btn btn-lg btn-block" type="button">Register</button>
+                                    <button id="signup" class="btn btn-lg btn-block" type="submit">Register</button>
 
                                     <br><br>
 
@@ -90,5 +95,7 @@
         </div>
     </div>
 </section>
+<script src="../js/signup.js" type="module"></script> 
+
 </body>
 </html>
