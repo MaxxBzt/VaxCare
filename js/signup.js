@@ -1,3 +1,15 @@
+const user = JSON.parse(sessionStorage.getItem("user"));
+
+// Check if the user is logged in
+if (user) {
+
+    window.location.href = "http://127.0.0.1:5500/html/home.html";
+    
+} else {
+    // User is not logged in, allow access to login and sign-up pages
+    console.log("User not logged in");
+}
+
 document.getElementById("signupForm").addEventListener("submit", function(event) {
     event.preventDefault();
     
